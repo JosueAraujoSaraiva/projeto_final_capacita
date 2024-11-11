@@ -1,23 +1,17 @@
-body {
-    
-    font-size: 17px;
-    background-color: rgba(192, 192, 192, 0.844);
-}
-#divisao {
+
+.divisao {
     display: flex;
+    
 }
 
 .lateral{
-    display: flex;
-    display: inline-block;
+    display: grid;
     background-color: white;
     border-right: 5px solid rgba(255, 255, 255, 0.442);
-    margin-top: -10px;
-    margin-left: -10px;
-    padding-left: 50px;
+    align-content: center;
+    justify-content: center;
     width: 300px;
-    height: 800px;
-    text-align: justify;
+    height: 700px;
     font-size: 22px;
 }
 .icone{
@@ -33,13 +27,12 @@ body {
     text-decoration: none;
 }
 .icone2 img {
-    display: inline-block;
     width: 30px;
     margin-top:20px;
     margin-right: 30px;
 }
 .posicao_icone{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-right: 10px;
 }
 #perfil {
@@ -58,13 +51,11 @@ body {
     margin-bottom: 20px;
     text-align: justify;
 }
-#geral {
-    display: flex;
-    display: inline-block;
-    margin-left: 200px;
-    padding-left: 40px;
+.geral {
+    display: grid;
     width: 800px;
-    height: 750px;
-    
-    
+    height: 700px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(217, 57, 57, 0.442);;
 }
