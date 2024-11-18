@@ -1,0 +1,113 @@
+body {
+
+    font-size: 17px;
+    background-color: rgba(192, 192, 192, 0.844);
+}
+
+#divisao {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#cabecalho {
+    position: fixed;
+}
+
+.lateral {
+    display: flex;
+    display: inline-block;
+    background-color: white;
+    border-right: 5px solid rgba(255, 255, 255, 0.442);
+    margin-top: -10px;
+    margin-left: -10px;
+    padding-left: 50px;
+    width: 300px;
+    height: 800px;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.icone {
+    display: flex;
+    margin: 5px;
+    width: 15px;
+}
+
+.posicao_icone img {
+    display: inline;
+    width: 18px;
+}
+
+.icone2 a {
+    text-decoration: none;
+}
+
+.icone2 img {
+    display: inline-block;
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.posicao_icone {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+#perfil {
+    position: relative;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+#nome {
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #989090;
+}
+
+#h1Lateral {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#geral {
+    display: flex;
+    display: inline-block;
+    margin-left: 350px;
+    padding-left: 40px;
+   
+   
+}
+.conteudo {
+    align-content: center;
+
+}
+ /*seção de certificação*/
+
+.imagens {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+
+}
+
+.certificacao {
+    background-color: white;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.certificacao img {
+    width: 350px;
+}
+
+.certificacao img:hover {
+    /*estilo aplicado apenas no hover do div imagem*/
+    opacity: 0.7;
+}
+
+.certificacao p {
+    padding: 10px;
+}
