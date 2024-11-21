@@ -17,8 +17,8 @@ body {
 .lateral {
     display: flex;
     display: inline-block;
-    background-color: white;
-    border-right: 5px solid rgba(255, 255, 255, 0.442);
+    background-color: rgba(192, 192, 192, 0.714);
+    border-right: 5px;
     margin-top: -10px;
     margin-left: -10px;
     padding-left: 50px;
@@ -56,8 +56,10 @@ body {
 }
 
 #perfil {
-    position: relative;
-    padding-top: 50px;
+    margin-top: 50px;
+}
+
+#perfil img {
     border-radius: 10px;
 }
 
@@ -76,8 +78,8 @@ body {
 #geral {
     display: flex;
     display: inline-block;
-    margin-left: 350px;
-    padding-left: 40px;
+    margin-left: 280px;
+    padding: 0px 40px 40px 40px;
 
 
 }
@@ -91,6 +93,7 @@ body {
 
 .imagens {
     display: grid;
+    justify-content: space-between;
     grid-template-columns: repeat(3, auto);
 
 }
@@ -119,16 +122,18 @@ body {
     justify-content: center;
 }
 
+/*Seção sobre mim*/
+
 .sobre {
     text-align: justify;
     padding: 10px;
     width: 700px;
 }
 
+/*Seção de habilidades e barra de progresso*/
 .habilidades {
     display: flex;
-    justify-content: start;
-    gap: 20px;
+    justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -140,5 +145,18 @@ body {
     border-radius: 10px;
     padding: 10px;
     width: 300px;
+    height: 250px;
+}
 
+.barra_progresso a {
+    text-decoration: none;
+}
+
+/*Seção de furmulario de contato*/
+.formulario {
+    border-style: groove;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 20px;
 }

@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Portfolio</title>
 </head>
 
@@ -118,15 +116,14 @@
             </section>
             <div class="container">
                 <ul class="pagination">
-                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="">Previous</a></li>
                     <li class="page-item"><a class="page-link" href="#">1</a></li>
                     <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
                     <li class="page-item"><a class="page-link" href="#">Next</a></li>
                 </ul>
             </div>
             <section class="sobre_mim">
-                <h2>Sobre mim</h2>
+                <h2>Sobre Mim</h2>
                 <div class="sobre">
                     <p>
                         Meu nome é Josué Araújo Saraiva, sou apaixonado por tecnologia desde o ensino médio, período em
@@ -145,7 +142,11 @@
                     <div class="barra_progresso" name="progresso_html">
                         <p>
                             <b>HTML</b>
+                            </br>
+                            HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web.
+                            Define o significado e a estrutura do conteúdo da web...
                         </p>
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">Saber mais</a>
                         <div class="progress">
                             <div class="progress-bar" style="width:70%">80%</div>
                         </div>
@@ -153,7 +154,10 @@
                     <div class="barra_progresso" name="progresso_css">
                         <p>
                             <b>CSS</b>
+                            CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo usada
+                            para descrever a apresentação de um documento escrito em HTML ou em XML...
                         </p>
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">Saber mais</a>
                         <div class="progress">
                             <div class="progress-bar" style="width:70%">70%</div>
                         </div>
@@ -161,7 +165,10 @@
                     <div class="barra_progresso" name="progresso_java">
                         <p>
                             <b>JAVA SCRIPT</b>
+                            JavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em
+                            objetos com funções de primeira classe, mais conhecida como a linguagem de script para...
                         </p>
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Saber mais</a>
                         <div class="progress">
                             <div class="progress-bar" style="width:70%">80%</div>
                         </div>
@@ -187,10 +194,28 @@
             <br>
 
             <section id="contatos">
-                <h2>Contatos</h2>
-                <a href="https://br.freepik.com/icones/redes-sociais">
-                    <img src="file:///C:/Users/Josue%20Ara%C3%BAjo/Downloads/instagram_747393.png" alt="" width="50px">
-                </a>
+                <h2>Deixe Seu Comentario</h2>
+                <div class="formulario">
+                    <form>
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" placeholder="Digite seu nome">
+                        </br>
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" placeholder="Digite seu email">
+                        </br>
+                        <label for="telefone">Telefone:</label>
+                        <input type="number" class="form-control" placeholder="Digite seu telefone">
+                        </br>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" class="form-control" placeholder="Digite o assunto">
+                        </br>
+                        <label for="comment">Duvida ou Orçamento:</label>
+                        <textarea class="form-control" rows="5" id="comment" name="text"
+                            placeholder="Digite sua duvida ou orçamento"></textarea>
+                        </br>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+                </form>
             </section>
         </section>
     </section>
