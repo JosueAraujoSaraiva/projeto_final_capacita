@@ -145,11 +145,15 @@ body {
     border-radius: 10px;
     padding: 10px;
     width: 300px;
-    height: 250px;
+    height: 260px;
 }
 
 .barra_progresso a {
     text-decoration: none;
+}
+.habilidades .conhecimento {
+    font-size: 13px;
+    padding-bottom: 0px;
 }
 
 /*Seção de furmulario de contato*/
