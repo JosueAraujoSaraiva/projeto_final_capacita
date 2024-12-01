@@ -134,7 +134,7 @@ body {
 
 .sobre {
     text-align: justify;
-    padding: 10px;
+    
     width: 700px;
 
 }
@@ -208,6 +208,7 @@ body {
     border-width: 2px;
     border-radius: 10px;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 /*Seção de avaliações*/
@@ -247,6 +248,33 @@ body {
 
 .avaliacoes .imagem3 {
     margin-right: 30px;
+}
 
+/*Seção de contato*/
+
+.icone_contato {
+    display: flex;
+    margin-top: 5px;
+    width: 15px;
+    
+}
+.titulo {
+    margin-bottom: 25px;
+}
+
+.posicao_icone_contato img {
+    display: inline;
+    width: 30px;
+    
+
+}
+.icone_contato a {
+    text-decoration: none;
+    color: black;
+}
+.posicao_icone_contato {
+
+    margin-bottom: 20px;
+    margin-right: 10px;
 
 }
